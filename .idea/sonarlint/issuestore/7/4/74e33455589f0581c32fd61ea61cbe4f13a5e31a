@@ -1,0 +1,12 @@
+
+9
+java:S1659"#Declare "mNext" on a separate line.(±•Ô®
+;
+java:S1659"%Declare "mOptKey" on a separate line.(±•Ô®
+>
+java:S1659"(Declare "mPausePlay" on a separate line.(±•Ô®
+k	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÆî¥ıÿÿÿÿ
+=
+java:S1659"'Declare "mCurrTime" on a separate line.(µ„Ô
+=
+java:S1659"'Declare "mMetaInfo" on a separate line.(µ„Ô

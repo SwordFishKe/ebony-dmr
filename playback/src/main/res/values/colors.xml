@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Seek_level_normal">#ffffffff</color>
+    <color name="Seek_level_focused">#ff76d7d6</color>
+    <color name="Seekbar_normal">#50ffffff</color>
+    <color name="Seek_Secondary_Progres">#50ffffff</color>
+</resources>

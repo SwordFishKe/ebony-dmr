@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.droidtv.ui.playback.ui.PhotoLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:descendantFocusability="afterDescendants"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mediainfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playbackcontrols_top_container_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/play_top_gradient"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <!-- android:background="@drawable/play_top_gradient" -->
+        <!-- TODO : text  style to be applied -->
+
+        <TextView
+            android:id="@+id/TxtFileNm"
+            style="@style/playbackcontrols_photoviewer_title_text_style"
+            android:layout_width="@dimen/playbackcontrols_title_text_width"
+            android:layout_height="@dimen/playbackcontrols_title_text_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:focusable="false"
+            android:gravity="left"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/metaInfo"
+            style="@style/playbackcontrols_musicplayer_sub_title_text_style"
+            android:layout_width="@dimen/playbackcontrols_musicplayer_sub_title_text_width"
+            android:layout_height="@dimen/playbackcontrols_musicplayer_sub_title_text_height"
+            android:layout_marginLeft="16dp"
+            android:focusable="false"
+            android:gravity="left"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mediakeys"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playbackcontrols_bottom_container_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/play_bottom_gradient"
+        android:focusable="false">
+
+        <!-- android:background="@drawable/play_bottom_gradient" -->
+
+        <ImageButton
+            android:id="@+id/prevbutton"
+            android:layout_width="@dimen/playbackcontrols_photoviewer_icon_previous_width"
+            android:layout_height="@dimen/playbackcontrols_photoviewer_icon_previous_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/pause"
+            android:background="@drawable/play_prev_selector"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- style="@style/Play" -->
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="@dimen/playbackcontrols_photoviewer_icon_play_pause_width"
+            android:layout_height="@dimen/playbackcontrols_photoviewer_icon_play_pause_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+        <!-- style="@style/Ffwd" -->
+
+
+        <!-- style="@style/Rew" -->
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="@dimen/playbackcontrols_photoviewer_icon_next_width"
+            android:layout_height="@dimen/playbackcontrols_photoviewer_icon_next_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@+id/pause"
+            android:background="@drawable/play_next_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/current_time"
+        style="@style/playbackcontrols_photoviewer_total_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/playbackcontrols_photoviewer_total_text_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:focusable="false" />
+
+    <ImageButton
+        android:id="@+id/optionskey"
+        android:layout_width="@dimen/playbackcontrols_icon_option_height"
+        android:layout_height="@dimen/playbackcontrols_icon_option_width"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/options_n_ico_20x15_166"
+        android:focusable="false" />
+
+</org.droidtv.ui.playback.ui.PhotoLayout>

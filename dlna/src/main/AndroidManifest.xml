@@ -1,0 +1,5 @@
+<manifest package="org.droidtv.tv.dlna"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <permission android:name="org.droidtv.DLNA_STARTUP" />
+</manifest>

@@ -1,0 +1,4 @@
+include ':playback'
+include ':dlna'
+include ':app'
+rootProject.name = "ebony-dmr-refactor"

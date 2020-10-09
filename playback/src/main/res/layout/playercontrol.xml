@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.droidtv.ui.playback.ui.PlayBackControlLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mediainfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playbackcontrols_top_container_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/play_top_gradient"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TxtFileNm"
+            style="@style/playbackcontrols_title_text_style"
+            android:layout_width="@dimen/playbackcontrols_title_text_width"
+            android:layout_height="@dimen/playbackcontrols_title_text_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:gravity="left"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/metaInfo"
+            style="@style/playbackcontrols_musicplayer_sub_title_text_style"
+            android:layout_width="@dimen/playbackcontrols_musicplayer_sub_title_text_width"
+            android:layout_height="@dimen/playbackcontrols_musicplayer_sub_title_text_height"
+            android:layout_marginLeft="16dp"
+            android:focusable="false"
+            android:gravity="left"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mediakeys"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playbackcontrols_bottom_container_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/play_bottom_gradient"
+        android:focusable="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/current_time"
+            style="@style/playbackcontrols_current_duration_text_style"
+            android:layout_width="@dimen/playbackcontrols_current_duration_text_width"
+            android:layout_height="@dimen/playbackcontrols_current_duration_text_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="40dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="02:22"
+            android:focusable="false"
+            android:gravity="center_vertical|start" />
+
+
+        <ImageButton
+            android:id="@+id/prevbutton"
+            android:layout_width="@dimen/playbackcontrols_icon_previous_width"
+            android:layout_height="@dimen/playbackcontrols_icon_previous_height"
+            android:layout_marginLeft="@dimen/playbackcontrols_icon_margin_width"
+            android:layout_marginTop="@dimen/playbackcontrols_icon_margin_height"
+            android:layout_marginRight="@dimen/playbackcontrols_icon_margin_width"
+            android:background="@drawable/play_prev_selector"
+            android:clickable="true"
+            android:focusable="true" />
+        <!-- style="@style/Rew" -->
+
+        <org.droidtv.ui.playback.ui.ImageButtonRwd
+            android:id="@+id/rew"
+            android:layout_width="@dimen/playbackcontrols_icon_rewind_width"
+            android:layout_height="@dimen/playbackcontrols_icon_rewind_height"
+            android:layout_marginLeft="@dimen/playbackcontrols_icon_margin_width"
+            android:layout_marginTop="@dimen/playbackcontrols_icon_margin_height"
+            android:layout_marginRight="@dimen/playbackcontrols_icon_margin_width"
+            android:background="@drawable/play_rwdspeed_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:longClickable="true" />
+
+        <!-- style="@style/Play" -->
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="@dimen/playbackcontrols_icon_play_pause_width"
+            android:layout_height="@dimen/playbackcontrols_icon_play_pause_height"
+            android:layout_marginLeft="@dimen/playbackcontrols_icon_margin_width"
+            android:layout_marginTop="@dimen/playbackcontrols_icon_margin_height"
+            android:layout_marginRight="@dimen/playbackcontrols_icon_margin_width"
+            android:clickable="true"
+            android:focusable="true" />
+        <!-- style="@style/Ffwd" -->
+
+        <org.droidtv.ui.playback.ui.ImageButtonFwd
+            android:id="@+id/ffwd"
+            android:layout_width="@dimen/playbackcontrols_icon_forward_width"
+            android:layout_height="@dimen/playbackcontrols_icon_forward_height"
+            android:layout_marginLeft="@dimen/playbackcontrols_icon_margin_width"
+            android:layout_marginTop="@dimen/playbackcontrols_icon_margin_height"
+            android:layout_marginRight="@dimen/playbackcontrols_icon_margin_width"
+            android:background="@drawable/play_fwdspeed_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:longClickable="true" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="@dimen/playbackcontrols_icon_next_width"
+            android:layout_height="@dimen/playbackcontrols_icon_next_height"
+            android:layout_marginLeft="@dimen/playbackcontrols_icon_margin_width"
+            android:layout_marginTop="@dimen/playbackcontrols_icon_margin_height"
+            android:layout_marginRight="@dimen/playbackcontrols_icon_margin_width"
+            android:background="@drawable/play_next_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/endtime"
+            style="@style/playbackcontrols_total_duration_text_style"
+            android:layout_width="@dimen/playbackcontrols_total_duration_text_width"
+            android:layout_height="@dimen/playbackcontrols_total_duration_text_height"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:gravity="right"
+            android:paddingRight="25dp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/mediacontroller_progress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playbackcontrols_seekbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:progressDrawable="@drawable/play_seekbar_selector"
+        android:thumbOffset="-1dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/optionskey"
+        android:layout_width="@dimen/playbackcontrols_icon_option_height"
+        android:layout_height="@dimen/playbackcontrols_icon_option_width"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/options_n_ico_20x15_166"
+        android:focusable="false"
+        android:visibility="invisible" />
+    <!-- TODO : Options key -->
+
+</org.droidtv.ui.playback.ui.PlayBackControlLayout>

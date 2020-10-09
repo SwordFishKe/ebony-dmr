@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="content_browser_file_preview_audio_name">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/content_browser_file_preview_name_text</item>
+        <item name="android:gravity">left</item>
+        <item name="android:maxWidth">@dimen/preview_file_audio_width</item>
+        <item name="android:paddingLeft">@dimen/preview_file_name_text_margin_left</item>
+        <item name="android:paddingRight">@dimen/preview_file_name_text_margin_right</item>
+    </style>
+
+    <style name="content_browser_file_preview_name_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="content_browser_file_preview_info" parent="@style/content_browser_file_preview_audio_name">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/content_browser_preview_info_text</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">@dimen/preview_file_name_text_margin_left</item>
+    </style>
+
+    <style name="content_browser_preview_info_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ProgressBarStyleDefault" parent="android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbar_drawable</item>
+    </style>
+
+    <style name="content_browser_file_preview_play_time_text" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="playbackcontrols_title_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="llr" parent="@android:style/TextAppearance">
+        <!--  <item name="android:fontFamily">sans-serif</item> -->
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="playbackcontrols_musicplayer_sub_title_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="lll" parent="@android:style/TextAppearance">
+        <!--  <item name="android:fontFamily">sans-serif-light</item> -->
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="playbackcontrols_current_duration_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_total_duration_text_style" parent="@style/lll">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="playbackcontrols_photoviewer_title_text_style" parent="@style/llr">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="hxr" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">37sp</item>
+    </style>
+
+    <style name="playbackcontrols_photoviewer_total_text_style" parent="@style/hxr">
+        <item name="android:gravity">left</item>
+    </style>
+</resources>

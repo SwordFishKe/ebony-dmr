@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Start: TopNavigation styleable -->
+    <declare-styleable name="TopNavigation">
+        <attr name="itemIcon" format="reference" />
+        <attr name="itemDescription" format="reference|string" />
+        <attr name="itemId" format="reference|string" />
+        <attr name="itemBackground" format="reference" />
+    </declare-styleable>
+    <!-- Start: TopNavigation styleable -->
+    <declare-styleable name="ColorKeys">
+
+        <!-- Label for the red color key. -->
+        <attr name="colorKeyRedText" format="string" />
+        <!-- Label for the green color key. -->
+        <attr name="colorKeyGreenText" format="string" />
+        <!-- Label for the yellow color key. -->
+        <attr name="colorKeyYellowText" format="string" />
+        <!-- Label for the blue color key. -->
+        <attr name="colorKeyBlueText" format="string" />
+        <!-- Label for the info color key. -->
+        <attr name="colorKeyInfoText" format="string" />
+        <!-- Label for the Help color key. -->
+        <attr name="colorKeyOptionsText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PanelBrowser">
+        <attr name="nPbEnableAnimation" format="boolean" />
+        <attr name="nPbFirstPanelWidth" format="dimension" />
+        <attr name="nPbNoOfVisiblePanels" format="integer" />
+    </declare-styleable>
+    
+    <attr name="inputPicker" format="reference" />
+    <attr name="VerticalSlider" format="reference" />
+    <attr name="ContentExplorerPanelBrowser" format="reference" />
+    <attr name="WizardsPanelBrowser" format="reference" />
+    <attr name="OptionsPanelBrowser" format="reference" />
+    <attr name="IndeterminateProgressBar" format="reference"></attr>
+     <declare-styleable name="VerticalSlider">
+        <!-- is this a balanaced slider (1/0) -->
+        <attr name="isBalancedSlider" format="boolean" />
+        <!-- display the values of the slider on the left or right -->
+        <attr name="sliderValueDisplay">
+            <enum name="displayOnLeft" value="0" />
+            <enum name="displayOnRight" value="1" />
+        </attr>
+
+        <!-- Minimum value of the slider, it could either a negative zero or any positive number -->
+        <attr name="sliderMinValue" format="integer" />
+
+        <!-- Maximum value of the slider, it could greater than min value -->
+        <attr name="sliderMaxValue" format="integer" />
+        <attr name="sliderCurrentValue" format="integer" />
+        <attr name="currentvalueDisplayTextStyle" format="reference" />
+        <attr name="minmaxvalueDisplayTextStyle" format="reference" />
+        <!-- resolution of update,i.e by what value shud the increase or decrease be -->
+        <attr name="updateResolution" format="integer" />
+        <attr name="sliderBarDrawable" format="reference" />
+        <attr name="sliderBarFill" format="reference|color" />
+        <attr name="sliderBarWidth" format="dimension" />
+        <attr name="sliderBarHeight" format="dimension" />
+        <attr name="minSliderWidth" format="dimension" />
+        <attr name="minSliderHeight" format="dimension" />	
+ 		<attr name="upArrowIconDrawable" format="reference" />
+        <attr name="downArrowIconDrawable" format="reference" />
+        <attr name="upArrowIconPressedDrawable" format="reference" />
+        <attr name="downArrowIconPressedDrawable" format="reference" />
+        <attr name="bottomIconDrawable" format="reference" />
+        <attr name="sliderLabelText" format="reference|string" />
+        <attr name="sliderLabelTextStyle" format="reference" />
+        <attr name="balancedSliderTopLabelText" format="reference|string" />
+		<attr name="balancedSliderBottomLabelText" format="reference|string" />
+        <attr name = "sliderContainerDrawable" format = "reference"/>
+		
+		<attr name = "sliderContainerWidth" format = "dimension"/>
+		
+		<attr name = "sliderContainerHeight" format = "dimension"/>
+		
+    </declare-styleable>
+    
+   <!--  <declare-styleable name="TabButton">
+        Indicates the initial checked state of this TabButton.
+        <attr name="checked" format="boolean" />
+        Drawable used for the TabButton background graphic.
+        <attr name="background" format="reference"/>
+        Drawable used for the TabButton icon graphic.
+        <attr name="iconDrawable" format="reference"/>
+        Title of the TabButton.
+        <attr name="titleText" format="string"/>
+        The Margin between the TabButton background and the title.
+        <attr name="titleTextMargin" format="dimension"/>
+        Font size of the Title of the TabButton.
+        <attr name="fontSize" format="dimension"/>
+        Font color of the Title of the TabButton.
+        <attr name="fontColor" format="color"/>
+        External Font filename for the Title of the TabButton.
+        <attr name="fontName" format="string"/>
+        TabButton icon Animation when it gains focus.
+        <attr name="iconOnFocusAnimation" format="reference" />
+        TabButton icon Animation when it looses focus.
+        <attr name="iconOnLooseFocusAnimation" format="reference" />
+        TabButton background Animation when it gets clicked.
+        <attr name="backgroundOnClickAlphaAnimation" format="reference" />        
+    </declare-styleable> -->
+   
+    <declare-styleable name="IndeterminateProgressBar">
+        <attr name="progressMaxValue" format="integer" />
+        <attr name="curProgressValue" format="integer"></attr>
+        <attr name="startSpinner" format="boolean" />
+    </declare-styleable>
+
+    <!-- filters -->
+
+    <declare-styleable name="FilterRadio">
+        <attr name="filtername" format="reference" />
+        <attr name="ispicklist" format="reference" />
+        <attr name="ellipseindex" format="reference" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+   <!--  <declare-styleable name="TabButtonGroup">
+        The id of the child TabButton that should be checked by default within this TabGroup.
+        <attr name="checkedTabButton" format="integer" />
+        Drawable used for the TabButton highlite fraphic.
+        <attr name="focusHighlite" format="reference" />        
+        Drawable used for all the TabButton background graphic.
+        <attr name="tabButtonBackground" format="reference"/>
+        TabButton title Animation when it gets selected.
+        <attr name="tabButtonOnCheckedTitleAnimation" format="reference" />
+        TabButton title Animation when it gets deselected.
+        <attr name="tabButtonOnUncheckedTitleAnimation" format="reference" />
+        All TabButton icon Animation when it gains focus.
+        <attr name="tabButtonIconOnFocusAnimation" format="reference" />
+        All TabButton icon Animation when it looses focus.
+        <attr name="tabButtonIconOnLooseFocusAnimation" format="reference" />
+        All TabButton background Animation when it gets clicked.
+        <attr name="tabButtonBackgroundOnClickAlphaAnimation" format="reference" />        
+        Animation when hidding the TabButton group.
+        <attr name="hideAnimation" format="reference" />
+        Animation when Showing the TabButton group.
+        <attr name="showAnimation" format="reference" />
+    </declare-styleable> -->
+    <!-- filters -->
+
+   
+ <!-- Nav-PageControl -->
+    <declare-styleable name="navPageControl">
+        <!-- The padding for top -->
+        <attr name="navPageControlTopPadding" format="dimension"/>
+        <!-- The padding for bottom -->
+        <attr name="navPageControlBottomPadding" format="dimension"/>
+        <!-- The padding for Right -->
+        <attr name="navPageControlRightPadding" format="dimension"/>
+        <!-- The padding for left -->
+        <attr name="navPageControlLeftPadding" format="dimension"/>
+        <!-- The width of the navPageontrol -->
+        <attr name="navPageControlWidth" format="dimension"/>
+        <!-- The height of the navPageontrol -->
+        <attr name="navPageControlHeight" format="dimension"/>
+        <!-- The radius of the normal dot -->
+        <attr name="navPageControlcircleRadNormal" format="dimension"/>
+        <!-- The radius of the selected dot -->
+        <attr name="navPageControlcircleRadLarge" format="dimension"/>
+        <!-- The size of the small   dot -->
+        <attr name="navPageControlcircleRadSmall" format="dimension"/>
+        <!-- The size of the distance between the dots -->
+        <attr name="navPageControlcirclepadding" format="dimension"/>
+        <!-- The total number of pages in Nav-Page control -->
+        <attr name="totalNumPages" format="integer" />
+        <!-- The current page in Page control -->
+        <attr name="currentPage" format="integer"></attr>
+        <!-- navPageControl_navPageControlColor -->
+        <attr name="navPageControlDefaultColor" format="color"></attr>
+        
+        <attr name="navPageControlSelectedColor" format="color"></attr>
+        
+        <attr name="navPageControlFishEyeColor" format="color"></attr>
+    
+    </declare-styleable>
+    
+    <declare-styleable name="DefaultListView">
+         <attr name="setRowWidth" format="integer" />
+         <attr name="setRowHeight" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="PowerMeter">
+        <attr name="PowerMeterLabel" format="string" />
+        <attr name="PowerMeterLabelStyle" format="reference" />
+        <attr name="PowerMeterLevelIndicgatorRadius" format="dimension" />
+        <attr name="PowerMeterLevelIndicatorLevels" format="integer" />
+        <attr name="PowerMeterIcon" format="reference" />
+        <attr name="PowerMeterRadius" format="dimension" />
+        <attr name="PowerMeterLevelColorsArray" format="reference" />
+        <attr name="PowerMeterTotalLevels" format="integer" />
+        <attr name="PowerMeterCurrentLevel" format="integer" />
+        <attr name="PowerMeterDefaultColor" format="color" />
+        <attr name="PowerMeterWidth" format="dimension" />
+        <attr name="PowerMeterHeight" format="dimension" />
+        <attr name="PowerMeterTextBottmPadding" format="dimension" />
+        <attr name="PowerMeterIconTopPadding" format="dimension" />
+        <attr name="PowerMeterIconBottomPadding" format="dimension" />
+        
+    </declare-styleable>
+  
+    <declare-styleable name="inputPicker"> 
+	<!-- The drawable for top -->
+ 	<attr format="reference" name="inputPickerUpIndicator"/> 
+ 	<attr format="reference" name="inputPickerUpIndicatorsel"/>
+ 	<attr format="reference" name="inputPickerUpIndicatorAct"/> 
+ 	<attr format="reference" name="inputPickerDownIndicatorAct"/>
+ 	
+	<!-- The drawable for bottom -->
+ 	<attr format="reference" name="inputPickerDownIndicator"/> 
+ 	<attr format="reference" name="inputPickerDownIndicatorsel"/> 
+	<!-- The Label Name -->
+	<attr format="string" name="inputPickerLabelName"/> 
+	<!-- The max value for the picker -->
+	<attr format="integer" name="inputPickerMaxValue"/> 
+	<!-- The min value for the picker -->
+	<attr format="integer" name="inputPickerMinValue"/> 
+	<!-- The currentValue for the picker -->
+ 	<attr format="integer" name="inputPickerCurrValue"/> 
+	<!-- The drawable for background -->
+	<attr format="reference" name="inputPickerbgDrawable"/> 
+ 	<attr name="android:height"/> 
+ 	<attr name="android:width"/> 
+ 	<attr format="reference" name="inputPickerDisplayTextStyle"/> 
+ 	<attr format="reference" name="inputPickerLabelTextStyle"/> 
+	<attr name="overrideInputPicker" format="boolean" />
+	<attr name="inputPickerUpArrowBgDrawable" format="reference" />
+	<attr name="inputPickerDownArrowBgDrawable" format="reference" />
+	<attr name="inputPickerDrawableWidth" format="dimension" />
+	<attr format="boolean" name="enableLeadingZero"/>
+ </declare-styleable>
+ 
+ 
+    <declare-styleable name="InputPinEntryTextField">
+         <attr name="maxLength" format="integer" />
+     </declare-styleable>
+	 <declare-styleable name="input_arrow">
+        <attr name="state_pressed_down" format="boolean" />
+        <attr name="state_pressed_up" format="boolean" />
+    </declare-styleable>
+
+	<!-- Start: FilterBar styleable -->
+	<declare-styleable name="FilterBar">
+        <attr name="filterId" format="integer" />
+        <attr name="value" format="string" />
+        <attr name="drawable" format="reference" />
+        <attr name="checked" format="boolean" />
+        <attr name="clearOthers" format="boolean" />
+    </declare-styleable>
+	<!-- Start: FilterBar styleable --> 
+	
+	
+	<declare-styleable name="BrowseGrid">
+        <attr name="selectedPosition" format="integer" />
+        <attr name="displayMode">
+            <enum name="normal" value="1" />
+            <enum name="minimized" value="2" />
+            <enum name="maximized" value="3" />
+        </attr>
+        <attr name="numColumns" format="integer" />
+        <attr name="numRows" format="integer" />
+        <attr name="gridType">
+            <enum name="NowOnTvGrid" value="1" />
+            <enum name="VoDGrid" value="2" />
+            <enum name="ToDGrid" value="3" />
+            <enum name="PhotoGrid" value="4" />
+            <enum name="VideoGrid" value="5" />
+            <enum name="MusicGrid" value="6" />
+            <enum name="FolderGrid" value="7" />
+        </attr>
+        <attr name="showSelectorView" format="boolean"/>
+    </declare-styleable>	
+    
+	<declare-styleable name="slow_play_control">
+        <attr name="invert_positions" format="boolean" />
+    </declare-styleable>
+     <!-- This state is used to distinguse the active/non-active channel drwables -->
+    <declare-styleable name="Playback">
+        <attr name="speed_control_14x" format="boolean" />
+        <attr name="speed_control_12x" format="boolean" />
+        <attr name="speed_control_2x" format="boolean" />
+        <attr name="speed_control_4x" format="boolean" />
+        <attr name="speed_control_8x" format="boolean" />
+        <attr name="speed_control_16x" format="boolean" />
+        <attr name="speed_control_32x" format="boolean" />
+        <attr name="speed_control_fwd_normal" format="boolean" />
+        <attr name="speed_control_rwd_normal" format="boolean" />
+    </declare-styleable>
+</resources>

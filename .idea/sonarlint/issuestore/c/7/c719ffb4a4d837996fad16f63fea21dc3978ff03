@@ -1,0 +1,49 @@
+
+K
+java:S1481É	"-Remove this unused "lKeyCode" local variable.(“—­8ÜÑåÍ.
+E
+java:S1125Š"(Remove the literal "true" boolean value.(™€ª8ÜÑåÍ.
+n	java:S128§"LEnd this switch case with an unconditional break, return or throw statement.(È’ß‹üÿÿÿÿ8ÜÑåÍ.
+
+java:S4165²"kRemove this useless assignment; "isDLNAEnabled" already holds the assigned value along all execution paths.(Œ«çÚÿÿÿÿÿ8ÌÎåÍ.
+L
+java:S1905„	".Remove this unnecessary cast to "ProgressBar".(îŒœŸ8ÜÑåÍ.
+X
+java:S1133±"5Do not forget to remove this deprecated code someday.(ªå„³ùÿÿÿÿ8ÜÑåÍ.
+E
+java:S1125"(Remove the literal "true" boolean value.(™€ª8ÜÑåÍ.
+?	java:S131é""Add a default case to this switch.(­Ó‚ş8ÜÑåÍ.
+M
+java:S1066ã
+"/Merge this if statement with the enclosing one.(İÿè8ÌÎåÍ.
+R
+java:S1066¢
+"/Merge this if statement with the enclosing one.(Äñê‡ıÿÿÿÿ8ÌÎåÍ.
+K
+java:S1199ê
+"-Extract this nested code block into a method.(Ş¨ÛÍ8ÌÎåÍ.
+S
+java:S1133¼"5Do not forget to remove this deprecated code someday.(¹ æÚ8ÜÑåÍ.
+?	java:S131ˆ""Add a default case to this switch.(­Ó‚ş8ÜÑåÍ.
+O
+java:S1172ı",Remove this unused method parameter "value".(¥ğƒúÿÿÿÿ8ÜÑåÍ.
+[
+java:S1144ı"8Remove this unused private "setPicturePlayerRwd" method.(¥ğƒúÿÿÿÿ8ÜÑåÍ.
+M
+java:S1066ù
+"/Merge this if statement with the enclosing one.(»Ï€“8ÌÎåÍ.
+I
+java:S1172õ",Remove this unused method parameter "value".(–¡–
+8ÜÑåÍ.
+v
+java:S1450Š"_Remove the "enableWrapAround" field and declare it as a local variable in the relevant methods.(÷Æ”œ
+J
+java:S1123±"'Add the missing @Deprecated annotation.(ªå„³ùÿÿÿÿ8ÜÑåÍ.
+M
+java:S1066×"/Merge this if statement with the enclosing one.(Ê±òÂ8ÌÎåÍ.
+E
+java:S1123¼"'Add the missing @Deprecated annotation.(¹ æÚ8ÜÑåÍ.
+s	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÆî¥ıÿÿÿÿ8ÌÎåÍ.
+U
+java:S1144õ"8Remove this unused private "setPicturePlayerFwd" method.(–¡–
+8ÜÑåÍ.

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <item android:drawable="@drawable/play_rwd_normal_selector" custom:speed_control_rwd_normal="true"/>
+    <item android:drawable="@drawable/play_speed_14x_selector" custom:speed_control_14x="true"/>
+    <item android:drawable="@drawable/play_speed_12x_selector" custom:speed_control_12x="true"/>
+    <item android:drawable="@drawable/play_rwd_normal_selector" custom:speed_control_rwd_normal="true"/>
+    <item android:drawable="@drawable/play_speed_2x_selector" custom:speed_control_2x="true"/>
+    <item android:drawable="@drawable/play_speed_4x_selector" custom:speed_control_4x="true"/>
+    <item android:drawable="@drawable/play_speed_8x_selector" custom:speed_control_8x="true"/>
+    <item android:drawable="@drawable/play_speed_16x_selector" custom:speed_control_16x="true"/>
+    <item android:drawable="@drawable/play_speed_32x_selector" custom:speed_control_32x="true"/>
+    <item android:drawable="@drawable/play_rwd_normal_selector" custom:speed_control_rwd_normal="true"/>
+
+   
+</selector>

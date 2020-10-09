@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.droidtv.ui.playback.ui.PerviewPlayLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/preview_playbackcontrols_container_height">
+
+    <RelativeLayout
+        android:id="@+id/preview_audio_album"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/preview_playbackcontrols_major_img_height">
+
+        <ImageView
+            android:id="@+id/preview_audio_album_iv"
+            android:layout_width="@dimen/preview_playbackcontrols_major_img_width"
+            android:layout_height="@dimen/preview_playbackcontrols_major_img_height"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp" />
+
+        <ImageView
+            android:id="@+id/preview_audio_shadow"
+            android:layout_width="@dimen/preview_playbackcontrols_shadow_img_width"
+            android:layout_height="@dimen/preview_playbackcontrols_shadow_img_height"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/preview_audio_disk"
+            android:layout_width="@dimen/preview_playbackcontrols_disk_img_width"
+            android:layout_height="@dimen/preview_playbackcontrols_disk_img_height"
+            android:layout_toRightOf="@id/preview_audio_album_iv" />
+
+        <TextView
+            android:id="@+id/preview_audio_name"
+            style="@style/content_browser_file_preview_audio_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="228dp"
+            android:ellipsize="marquee" />
+
+        <TextView
+            android:id="@+id/preview_audio_artist"
+            style="@style/content_browser_file_preview_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp" />
+
+        <RelativeLayout
+            android:id="@+id/preview_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible">
+
+            <ProgressBar
+                android:id="@+id/preview_audio_play_progress"
+                style="@style/ProgressBarStyleDefault"
+                android:layout_width="@dimen/preview_playbackcontrols_progress_bar_width"
+                android:layout_height="@dimen/preview_playbackcontrols_progress_bar_height"
+                android:max="100"
+                android:progress="50" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- android:visibility="invisible" -->
+
+    <RelativeLayout
+        android:layout_width="@dimen/preview_playbackcontrols_major_img_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview_audio_album"
+        android:layout_marginTop="@dimen/preview_playbackcontrols_time_text_margin_top">
+
+        <TextView
+            android:id="@+id/current_time"
+            style="@style/content_browser_file_preview_play_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/preview_playbackcontrols_time_text_height"
+            android:layout_alignParentLeft="true"
+            android:focusable="false"
+            android:text="00:00" />
+
+        <TextView
+            android:id="@+id/endtime"
+            style="@style/content_browser_file_preview_play_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/preview_playbackcontrols_time_text_height"
+            android:layout_alignParentRight="true"
+            android:focusable="false"
+            android:text="00:00" />
+
+        <TextView
+            android:id="@+id/endtime_preview"
+            style="@style/content_browser_file_preview_play_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/preview_playbackcontrols_time_text_height"
+            android:layout_alignParentRight="true"
+            android:focusable="false"
+            android:text="00:00" />
+    </RelativeLayout>
+
+</org.droidtv.ui.playback.ui.PerviewPlayLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_playbackcontrols_margin_left">72dp</dimen>
+    <dimen name="preview_playbackcontrols_margin_top">-20dp</dimen>
+
+    <dimen name="preview_playbackcontrols_container_height">330dp</dimen>
+    <dimen name="preview_playbackcontrols_container_width">330dp</dimen>
+
+    <dimen name="preview_playbackcontrols_major_img_margin_left">74dp</dimen>
+    <dimen name="preview_playbackcontrols_major_img_margin_top">15dp</dimen>
+
+    <dimen name="preview_playbackcontrols_major_img_height">276dp</dimen>
+    <dimen name="preview_playbackcontrols_major_img_width">276dp</dimen>
+
+    <dimen name="preview_playbackcontrols_default_major_img_height">48dp</dimen>
+    <dimen name="preview_playbackcontrols_default_major_img_width">48dp</dimen>
+
+    <dimen name="preview_playbackcontrols_shadow_img_height">276dp</dimen>
+    <dimen name="preview_playbackcontrols_shadow_img_width">276dp</dimen>
+
+    <dimen name="preview_playbackcontrols_disk_img_height">276dp</dimen>
+    <dimen name="preview_playbackcontrols_disk_img_width">54dp</dimen>
+
+    <dimen name="preview_playbackcontrols_progress_bar_height">4dp</dimen>
+    <dimen name="preview_playbackcontrols_progress_bar_width">276dp</dimen>
+
+    <dimen name="preview_playbackcontrols_title_text_margin_left">14dp</dimen>
+    <dimen name="preview_playbackcontrols_title_text_margin_bottom">4dp</dimen>
+
+    <dimen name="preview_playbackcontrols_sub_title_text_margin_left">14dp</dimen>
+    <dimen name="preview_playbackcontrols_sub_title_text_margin_bottom">15dp</dimen>
+
+    <dimen name="preview_playbackcontrols_time_text_margin_top">7.5dp</dimen>
+    <dimen name="preview_playbackcontrols_end_time_text_margin_right">54dp</dimen>
+
+    <dimen name="preview_playbackcontrols_title_text_area_height">80dp</dimen>
+    <dimen name="preview_playbackcontrols_time_text_area_height">20dp</dimen>
+
+    <dimen name="preview_playbackcontrols_title_text_height">20dp</dimen>
+    <dimen name="preview_playbackcontrols_sub_title_text_height">20dp</dimen>
+    <dimen name="preview_playbackcontrols_time_text_height">20dp</dimen>
+
+    <dimen name="preview_file_name_text_margin_left">14dp</dimen>
+    <dimen name="preview_file_name_text_margin_right">14dp</dimen>
+    <dimen name="preview_file_video_width">368dp</dimen>
+    <dimen name="preview_file_video_height">240dp</dimen>
+    <dimen name="preview_file_photo_width">368dp</dimen>
+    <dimen name="preview_file_photo_height">240dp</dimen>
+    <dimen name="preview_file_audio_width">276dp</dimen>
+    <dimen name="preview_file_audio_height">276dp</dimen>
+</resources>
