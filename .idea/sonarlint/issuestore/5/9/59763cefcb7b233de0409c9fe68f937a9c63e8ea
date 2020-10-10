@@ -1,88 +1,0 @@
-
-g
-java:S1301¨"KReplace this "switch" statement by "if" statements to increase readability.(Ò“ÿšùÿÿÿÿ
-b
-java:S1192ê"LDefine a constant instead of duplicating this literal "DLNA_ORG_PN" 3 times.(ÔØ™
-K
-java:S1066µ"/Merge this if statement with the enclosing one.(á¶ıëøÿÿÿÿ
-W	java:S107Ï"<Method has 8 parameters, which is greater than 7 authorized.(’ÿÎıùÿÿÿÿ
-3
-java:S1643ù"Use a StringBuilder instead.(ùíàù
-8
-java:S1643û"Use a StringBuilder instead.(¸ÚßÊÿÿÿÿÿ
-3
-java:S1643‹"Use a StringBuilder instead.(ùíàù
-8
-java:S1643"Use a StringBuilder instead.(¸ÚßÊÿÿÿÿÿ
-o	java:S135İ"YReduce the total number of break and continue statements in this loop to use at most one.(ûÏĞé
-o	java:S135š"YReduce the total number of break and continue statements in this loop to use at most one.(ûÏĞé
-U
-java:S1155†">Use isEmpty() to check whether the collection is empty or not.(…±¨Ô
-U
-java:S1155§">Use isEmpty() to check whether the collection is empty or not.(…±¨Ô
-U
-java:S1155º">Use isEmpty() to check whether the collection is empty or not.(…±¨Ô
-g	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“•ÇË
-g	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–äøÁ
-l	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ï«öÿÿÿÿÿ
-f	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ õ
-p
-java:S2293÷"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰»¤Ä
-p
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰»¤Ä
-D
-java:S1125”"(Remove the literal "true" boolean value.(ãº£úÿÿÿÿ
-u
-java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(ş’®ïşÿÿÿÿ
-u
-java:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(ş’®ïşÿÿÿÿ
-N
-java:S1135ù"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-o
-java:S2293è"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-o
-java:S2293ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-F
-java:S1172ş"*Remove this unused method parameter "res".(¸†šÚıÿÿÿÿ
-p
-java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞÀíŠ
-p
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä¤•€
-u
-java:S2293¥"YReplace the type specification in this constructor call with the diamond operator ("<>").(–Íşÿÿÿÿ
-p
-java:S2293­"YReplace the type specification in this constructor call with the diamond operator ("<>").(šÅã¯
-o
-java:S2293ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-o
-java:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-p
-java:S2293¦"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ä½¤”
-u
-java:S2293î"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿èèİøÿÿÿÿ
-j
-java:S1871º"NThis branch's code block is the same as the block for the branch on line 1463.(°å¼éøÿÿÿÿ
-]
-java:S1117Ø"ARename "resourceList" which hides the field declared at line 120.(®¢°§ıÿÿÿÿ
-H
-java:S1135ò"2Complete the task associated to this TODO comment.(ÁãÊA
-I
-java:S1135"2Complete the task associated to this TODO comment.(ıê´‘
-o
-java:S2293ü"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª££
-p
-java:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ä½¤”
-d
-java:S1871©"NThis branch's code block is the same as the block for the branch on line 1831.(¢É8
-j
-java:S1871«"NThis branch's code block is the same as the block for the branch on line 1831.(°å¼éøÿÿÿÿ
-L
-java:S1751±"6Remove this "return" statement or make it conditional.(÷èÉ'
-T
-java:S1197Á"8Move the array designator from the variable to the type.(õÕ¨Éıÿÿÿÿ
-O
-java:S1197Ñ"8Move the array designator from the variable to the type.(‚ô²…
-T
-java:S1197Ö"8Move the array designator from the variable to the type.(êªöãûÿÿÿÿ
